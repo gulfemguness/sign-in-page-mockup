@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  span: material-symbols-outlined">arrow_right -->
+    <title>Sign In</title>
+</head>
+
+<body>
+    
+        <div class="box1"> <a href="./index.html"><img src="https://via.placeholder.com/100" alt="logo"></a></div>
+
+    <div class="box2">
+        <div class="form">
+             <!-- method: -post- (sensitive info),  -get- (the form data will become visible in the page address)  -->
+            <form action="/action_page.php" method="post">
+
+                <section><h1>Sign in</h1></section>
+
+                <section>
+                    <label for="email">Email or mobile phone number</label>
+                    <input type="email" name="email" id="email">
+                </section>
+
+                <section>
+                    <input type="submit" value="Continue">
+                </section>
+
+                <section>
+                    <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> 
+                    and 
+                    <a href="#">Privacy Notice.</a> </p>
+                </section> 
+                <!-- ADD hover color -->
+                <!-- Using - javascript:; - doesn't make the link look like it was clicked on the page.  -->
+
+
+                <!-- DROPDOWN menu -->
+                <section>
+                    <div class="dropdown">
+                        <button class="dropbtn">Need help?</button>
+                        <div class="dropdown-content">
+                            <a href="#">Forgot your password?</a>
+                            <a href="#">Other issues with Sign-In</a>
+                        </div>
+                    </div>
+                </section>
+                                        <!-- <span class="material-symbols-outlined">arrow_right</span> -->
+             </form>
+        </div>    
+
+        <div class="box3">
+             <p>New to Amazon</p>
+             <button>Create your Amazon account</button>
+        </div>
+
+        
+    </div> 
+
+
+    <footer class="footer">
+        <section>
+        <nav class="nav-bottom"> 
+            <ul>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav> 
+        </section>
+        
+        <section>
+        <p> &copy; 1996-2022, Amazon.com, Inc. or its affiliates</p>
+        </section>
+    </footer>
+
+</body>
+</html>
